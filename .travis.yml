@@ -3,7 +3,7 @@ services:
     - docker
 
 before_install:
-    - docker build -t jangdonghyeon/docker-react -f Dockerfile.dev .
+    - docker build -t JangDongHyeon/docker-react -f Dockerfile.dev .
 
 script:
-    - docker run -e CI=true jangdonghyeon/docker-react npm run test
+    - docker run -e CI=true JangDongHyeon/docker-react npm run test
