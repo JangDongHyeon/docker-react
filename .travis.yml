@@ -12,8 +12,8 @@ deploy:
     edge: true
     provider: elasticbeanstalk
     region: 'ap-northeast-2'
-    app: 'docker'
-    env: 'Docker-env'
+    app: 'dicker'
+    env: 'Dicker-env'
     bucket_name: 'elasticbeanstalk-ap-northeast-2-344255633850'
     bucket_path: 'docker'
     on:
